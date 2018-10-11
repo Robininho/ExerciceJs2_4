@@ -1,3 +1,5 @@
-lastname.addEventListener("keyup", function() {
-  alert(lastname.value);
+button.addEventListener('click', function(){
+  lastname.value = '';
+  firstname.value = '';
+  city.value = '';
 });
